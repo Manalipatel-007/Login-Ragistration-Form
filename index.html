@@ -13,61 +13,64 @@
      <span class="bg-animate2"></span>
 
     <div class="form-box login">
-      <h2>Login</h2>
+      <h2 class="animation" style="--i:0;">Login</h2>
       <form action="#">
-         <div class="input-box">
+         <div class="input-box animation" style="--i:1;">
              <input type="text" required>
              <label>username</label>
              <i class='bx bxs-user'></i>
          </div>
-         <div class="input-box">
+         <div class="input-box animation" style="--i:2;">
              <input type="password" required>
              <label>Password</label>
              <i class='bx bxs-lock-alt'></i>
          </div>
-       <button type="submit" class="btn">Login</button>
-       <div class="logreg-link">
-           <p>Don't have an account ? <a href="#" class="ragister-link">Sign Up</a></p>
+       <button type="submit" class="btn animation" style="--i:3;">Login</button>
+       <div class="logreg-link animation "style="--i:4;" >
+           <p>Don't have an account ? <a href="#" class="register-link">Sign Up</a></p>
        </div>
       </form>
     </div>
     <div class="info-text login">
-      <h2>Welcome Back!</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h2 class="animation" style="--i:0;">Welcome Back!</h2>
+      <p class="animation" style="--i:1;" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
     <div class="form-box register">
-      <h2>Sign Up</h2>
+      <h2 class="animation">Sign Up</h2>
       <form action="#">
-         <div class="input-box">
+         <div class="input-box animation">
              <input type="text" required>
              <label>username</label>
              <i class='bx bxs-user'></i>
          </div>
-        <div class="input-box">
+        <div class="input-box animation">
          <input type="text" required>
          <label>Email</label>
          <i class='bx bxs-envelope'></i>
      </div>
-         <div class="input-box">
+         <div class="input-box animation ">
              <input type="password" required>
              <label>Password</label>
              <i class='bx bxs-lock-alt'></i>
          </div>
-       <button type="submit" class="btn">Sign Up</button>
-       <div class="logreg-link">
-           <p>Already have an account ? <a href="#" class="ragister-link">Login</a></p>
+       <button type="submit" class="btn animation">Sign Up</button>
+       <div class="logreg-link animation">
+           <p>Already have an account ? <a href="#" class="login-link">Login</a></p>
        </div>
       </form>
     </div>
 
     <div class="info-text register">
-      <h2>Welcome Back!</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h2 class="animation">Welcome Back!</h2>
+      <p class="animation">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
      
     </div>
   <!-- </div> -->
+
+
+  <script src="script.js"></script>
 </body>
 </html>
 
